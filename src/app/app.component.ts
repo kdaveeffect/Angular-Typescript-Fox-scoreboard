@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
  public title = 'scoreboard';
   public startingMinutes = 1;
-  public time = 10;
+  public time = 900;
   public scoreboardMessage: string;
   
   ngOnInit(){
@@ -28,4 +28,7 @@ export class AppComponent {
 this.scoreboardMessage = `${minutes}:${seconds}`;
    this.time--;
   }
+
+
+  
 }
